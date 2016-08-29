@@ -2,6 +2,7 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" media="all" href="css/animate.css">
+<link rel="stylesheet" type="text/css" media="all" href="css/animate.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script>
   $(document).ready(function() {
@@ -9,7 +10,8 @@
     $(".well").addClass("animated shake");
     $("#target3").addClass("animated fadeOut");
     $("button").removeClass("btn-default");
-    $("#target1").css("color"."red");
+    $("#target1").css("color","red");
+    $("#target1").prop("disabled",true);
 
   });
 </script>
